@@ -452,7 +452,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--dark);
 }
 
 .footer .btn.btn-link {
@@ -499,3 +499,6 @@
     padding-right: 0;
     border-right: none;
 }
+/* .default-social:hover{
+    background-color: black  !important;
+} */
