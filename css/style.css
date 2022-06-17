@@ -116,9 +116,9 @@
     color: var(--primary);
 }
 
-.navbar .navbar-brand h1 {
+/* .navbar .navbar-brand h1 {
     color: #FFFFFF;
-}
+} */
 
 .navbar .navbar-brand img {
     max-height: 60px;
