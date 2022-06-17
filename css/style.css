@@ -94,6 +94,11 @@
 .default-color{
     color: var(--primary) !important;
 }
+.default-bgcolor{
+    background-color: var(--primary) !important;
+}
+
+
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
