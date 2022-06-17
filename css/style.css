@@ -177,9 +177,7 @@
     .navbar .navbar-brand img {
         max-height: 45px;
     }
-    nav div a h1 span{
-        color: black !important;
-    }
+    
     .margin-fix{
         margin-left: none !important;
     }
@@ -196,10 +194,6 @@
         border-bottom: 1px solid rgba(256, 256, 256, .2);
         z-index: 999;
     }
-    nav div a h1 span{
-        color: black !important;
-    }
-    
     .sticky-top.navbar {
         position: fixed;
         background: #FFFFFF;
@@ -235,6 +229,10 @@
     .sticky-top.navbar .navbar-brand h1 {
         color: var(--primary);
     }
+    .navbar .navbar-brand h1 span{
+        color: black !important;   
+        /* thissssssssssssssssssssssssssssssssssssss */
+    }
 
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -252,11 +250,14 @@
         transition: .5s;
         opacity: 1;
     }
-    nav div a h1 span{
-        color: black !important;
-    }
     .margin-fix{
         margin-left: 270px !important;
+    }
+}
+@media (max-width: 768px) {
+    .navbar .navbar-brand h1 span{
+        color: black !important;   
+        /* thissssssssssssssssssssssssssssssssssssss */
     }
 }
 
@@ -288,12 +289,11 @@
     .page-header {
         padding: 6rem 0;
     }
-    nav div a h1 span{
-        color: black !important;
-    }
+
     .margin-fix{
         margin-left:none !important;
     }
+   
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
