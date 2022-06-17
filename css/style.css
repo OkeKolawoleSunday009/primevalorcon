@@ -22,6 +22,7 @@
 }
 
 .back-to-top {
+    background-color: var(--primary);
     position: fixed;
     display: none;
     right: 45px;
@@ -140,6 +141,12 @@
 .learn-more:hover{
     background-color:var(--primary) !important;
 }
+
+.margin-fix{
+    margin-left:none !important;
+}
+
+/* media query ))))))))))))))))))))))) */
 @media (max-width: 991.98px) {
     .sticky-top.navbar {
         position: relative;
@@ -173,7 +180,12 @@
     nav div a h1 span{
         color: black !important;
     }
+    .margin-fix{
+        margin-left: none !important;
+    }
 }
+
+/* media query ))))))))))))))))))))))) */
 
 @media (min-width: 992px) {
     .navbar {
@@ -243,6 +255,9 @@
     nav div a h1 span{
         color: black !important;
     }
+    .margin-fix{
+        margin-left: 270px !important;
+    }
 }
 
 
@@ -263,10 +278,8 @@
     margin-bottom: 6rem;
     padding: 12rem 0 6rem 0;
 }
-.margin-fix{
-    margin-left: 270px !important;
-}
 
+/* media query ))))))))))))))))))))))) */
 @media (max-width: 991.98px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
@@ -277,6 +290,9 @@
     }
     nav div a h1 span{
         color: black !important;
+    }
+    .margin-fix{
+        margin-left:none !important;
     }
 }
 
