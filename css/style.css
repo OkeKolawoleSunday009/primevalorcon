@@ -3,6 +3,7 @@
     --primary:orange; 
     --light: #F3F6F8;
     --dark: #0E2E50;
+
 }
 
 
@@ -90,10 +91,13 @@
 .text-size{
     font-size: 25px !important;
 }
+.default-color{
+    color: var(--primary) !important;
+}
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #FFFFFF;
+    color: var(--primary);
 }
 
 .sticky-top.navbar .navbar-nav .nav-link {
@@ -122,7 +126,15 @@
     max-height: 45px;
 
 }
-
+.img-banner{
+    max-width: 250px;
+}
+.book-us:hover{
+    background-color:var(--primary) !important;
+}
+.learn-more:hover{
+    background-color:var(--primary) !important;
+}
 @media (max-width: 991.98px) {
     .sticky-top.navbar {
         position: relative;
@@ -231,15 +243,23 @@
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding: 12rem 0 9rem 0;
-    background: url(../img/shape-bottom.png) center bottom no-repeat;
+     /* margin-bottom: 9rem; */
+    padding: 12rem 0 5rem 0rem;
+    /*background: url(../img/shape-bottom.png) center bottom no-repeat; */
+    /* background-size: 300px 0; */
     /* background-image: url(../img/team-1.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .page-header {
     margin-bottom: 6rem;
     padding: 12rem 0 6rem 0;
+}
+.margin-fix{
+    margin-left: 270px !important;
 }
 
 @media (max-width: 991.98px) {
