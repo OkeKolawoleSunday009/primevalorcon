@@ -259,6 +259,9 @@
         color: black !important;   
         /* thissssssssssssssssssssssssssssssssssssss */
     }
+    .navbar .navbar-brand h1 {
+        font-size: 15px !important;
+    }
 }
 
 
@@ -274,6 +277,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.tab-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .page-header {
     margin-bottom: 6rem;
