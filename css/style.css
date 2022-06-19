@@ -101,6 +101,9 @@
     border-radius: 5px;
 
 }
+.default-black{
+    color: black !important;
+}
 .default-color{
     color: var(--primary) !important;
 }
