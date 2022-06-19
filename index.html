@@ -29,6 +29,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -79,7 +80,7 @@
                 </div>
             </nav>
 
-            <div class="container-xxl bg-color hero-header">
+            <div class="container-xxl hero-header" >
                 <div class="container  ">
                     <div class="row g-5 align-items-center  hero-content">
                         <!-- <div class="col-lg-6 text-center text-lg-start">
@@ -709,6 +710,43 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script>
+
+var i = 0;
+var images = [];
+var slideTime = 5000; // 3 seconds
+
+images[0] = 'img/banner1.jpg';
+images[1] = 'img/banner2.jpg';
+images[2] = 'img/team-4.jpg';
+
+
+
+function changePicture() {
+
+    $(".hero-header").css(
+           " background-image","url(" + images[i] + ")",
+    );
+    // $(".hero-header").css(
+    //     {background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))'} 
+    //     );
+
+   
+
+    // $(".hero-header").css();
+    // $(".hero-header").css("background-image", 
+    //
+    // document.querySelector('#hero-headers').style.backgroundImage = images[i];
+
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+
+    setTimeout("changePicture()", slideTime);
+}
+
+window.onload = changePicture;
         var defaultHeight = 400; // height when "closed"
           var text = $(".text");
           var textHeight = text[0].scrollHeight; // the real height of the element
