@@ -284,7 +284,7 @@
     /*background: url(../img/shape-bottom.png) center bottom no-repeat; */
     /* background-size: 300px 0; */
     /* background-image: url(../img/team-1.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
