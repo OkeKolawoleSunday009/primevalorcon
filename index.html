@@ -730,11 +730,12 @@
     function changePicture() {
 
         $(".hero-header").css({
-             background:"url(" + images[i] + ")",
-    });
-    $().css({background : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"})
+             background:"linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(" + images[i] + ")",
+          
+                });
+            // $().css({background : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"})
        
-        // document.body.style.backgroundImage = images[i];
+            // document.body.style.backgroundImage = images[i];
         if (i < images.length - 1) {
             i++;
         } else {
