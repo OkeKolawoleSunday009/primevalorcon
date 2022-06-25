@@ -80,23 +80,36 @@
                 </div>
             </nav>
 
-            <div class="container-xxl hero-header " >
-                <div class="container  ">
-                    <div class="row g-5 align-items-center  hero-content">
-                        <!-- <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn img-banner" src="img/banner2.jpg" alt="">
-                        </div> -->
-                                  
-                        <div class="col-lg-10 text-center mx-auto text-lg-start">
-                            <h3 class="text-white text-center mb-4 animated zoomIn">We Help To Push Your Business To The Top Level</h3>
-                            <p class="text-white text-center pb-3 animated zoomIn">A management consulting organization with a purpose to help firms leverage individual and organizational capacity to create strategic and long-term results by delivering specialized Business and HR services to assist firms in achieving substantial acceleration and growth for enhanced business processes, happy workers, and increased revenue growth.
-                            </p>
-                            <a href="" class="btn btn-outline-light margin-fix rounded-pill border-2 py-3 px-5 animated slideInRight learn-more">Learn More</a>
+            <div class="container-xxl" >
+                <div class="container">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                        <div class="carousel-item active caption-relative">
+                            <img class="hero-header" src="img/renew2.jfif" class="d-block w-100" alt="...">
+                            <div class="col-lg-10 text-center mx-auto text-lg-start captions">
+                                <h3 class="text-white text-center mb-4 animated zoomIn">We Help To Push Your Business To The Top Level</h3>
+                                <p class="text-white text-center pb-3 animated zoomIn">A management consulting organization with a purpose to help firms leverage individual and organizational capacity to create strategic and long-term results by delivering specialized Business and HR services to assist firms in achieving substantial acceleration and growth for enhanced business processes, happy workers, and increased revenue growth.
+                                </p>
+                                <a href="" class="btn btn-outline-light margin-fix rounded-pill border-2 py-3 px-5 animated slideInRight learn-more">Learn More</a>
+                            </div>
                         </div>
-                     
+                        <div class="carousel-item caption-relative">
+                            <img class="hero-header" src="img/renew1.jpg" class="d-block w-100" alt="...">
+                            <div class="col-lg-10 text-center mx-auto text-lg-start captions">
+                                <h3 class="text-white text-center mb-4 animated zoomIn">We Help To </h3>
+                                <p class="text-white text-center pb-3 animated zoomIn">A management consulting organization with a purpose to help firms leverage individual and organizational capacity to create strategic and long-term results by delivering specialized Business and HR services to assist firms in achieving substantial acceleration and growth for enhanced business processes, happy workers, and increased revenue growth.
+                                </p>
+                                <a href="" class="btn btn-outline-light margin-fix rounded-pill border-2 py-3 px-5 animated slideInRight learn-more">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item caption-relative">
+                            <img class="hero-header" src="img/renew3.jfif" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
                     </div>
-                </div>
+               </div>
             </div>
+            
         </div>
         <!-- Navbar & Hero End -->
 
@@ -104,9 +117,9 @@
         <!-- About Start -->
         <div class="container-xxl py-6">
             <div class="container">
-                <div class="row g-5 align-items-center">
+                <div class="row g-5 align-items-center d-flex">
                     <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                        <img class="img-fluid" src="img/about.png">
+                        <img class="img-fluid" src="img/banner2.jpg">
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="d-inline-block border rounded-pill default-color px-4 mb-3">About Us</div>
@@ -711,66 +724,6 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script>
 
-        var i = 0;
-        var images = [];
-        var slideTime =  5000; // 3 seconds
-
-        images[0] = 'img/banner1.jpg';
-        images[1] = 'img/banner2.jpg';
-        images[2] = 'img/team-4.jpg';
-
-         // $(".hero-header").css(
-        //     {background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))'} 
-        //     );
-        // $(".hero-header").css();
-        // $(".hero-header").css("background-image", 
-        //
-       
-
-    function changePicture() {
-
-        $(".hero-header").css({
-             background:"linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(" + images[i] + ")",
-          
-                });
-            // $().css({background : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"})
-       
-            // document.body.style.backgroundImage = images[i];
-        if (i < images.length - 1) {
-            i++;
-        } else {
-            i = 0;
-        }
-
-        setTimeout("changePicture()", slideTime);
-    }
-
-    window.onload = changePicture;
-
-        //  for read more       
-        var defaultHeight = 400; // height when "closed"
-          var text = $(".text");
-          var textHeight = text[0].scrollHeight; // the real height of the element
-          var button = $(".button");
-          
-          text.css({"max-height": defaultHeight, "overflow": "hidden"});
-          
-          button.on("click", function(){
-            var newHeight = 0;
-            if (text.hasClass("active")) {
-              newHeight = defaultHeight;
-              text.removeClass("active");
-              $(".button").text("Read more!");
-            } else {
-              newHeight = textHeight;
-              $(".button").text("Read less!");
-              text.addClass("active");
-            }
-            text.animate({
-              "max-height": newHeight
-            }, 500);
-          });
-          
           </script>
       
 

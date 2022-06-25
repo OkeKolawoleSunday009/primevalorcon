@@ -285,17 +285,13 @@
 
 
 /*** Hero Header ***/
-.hero-header {
-     /* margin-bottom: 9rem; */
-    padding: 12rem 0 5rem 0rem;
-    /*background: url(../img/shape-bottom.png) center bottom no-repeat; */
-    /* background-size: 300px 0; */
-    /* background-image: url(../img/team-1.jpg); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/*  */
+.caption-relative{
+    position: relative;
+}
+.captions{
+    position: absolute;
+    z-index: 1000;
 }
 .tab-bg{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);

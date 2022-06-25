@@ -1,3 +1,45 @@
+.hero-header {
+  /* margin-bottom: 9rem; */
+ padding: 12rem 0 5rem 0rem;
+ /*background: url(../img/shape-bottom.png) center bottom no-repeat; */
+ /* background-size: 300px 0; */
+ /* background-image: url(../img/team-1.jpg); */
+ background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
+ height: 100vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+<div class="container-xxl hero-header " >
+  <div class="container  ">
+      <div class="row g-5 align-items-center  hero-content">
+          <!-- <div class="col-lg-6 text-center text-lg-start">
+              <img class="img-fluid animated zoomIn img-banner" src="img/banner2.jpg" alt="">
+          </div> -->
+                    
+          <div class="col-lg-10 text-center mx-auto text-lg-start">
+              <h3 class="text-white text-center mb-4 animated zoomIn">We Help To Push Your Business To The Top Level</h3>
+              <p class="text-white text-center pb-3 animated zoomIn">A management consulting organization with a purpose to help firms leverage individual and organizational capacity to create strategic and long-term results by delivering specialized Business and HR services to assist firms in achieving substantial acceleration and growth for enhanced business processes, happy workers, and increased revenue growth.
+              </p>
+              <a href="" class="btn btn-outline-light margin-fix rounded-pill border-2 py-3 px-5 animated slideInRight learn-more">Learn More</a>
+          </div>
+       
+      </div>
+  </div>
+</div>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
 							
