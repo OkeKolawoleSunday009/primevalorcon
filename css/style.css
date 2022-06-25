@@ -281,6 +281,10 @@
     .navbar .navbar-brand h1 {
         font-size: 13px !important;
     }
+    .img-control{
+        height: 300px;
+        width: 400px;
+    }
 }
 
 
