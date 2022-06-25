@@ -286,6 +286,9 @@
 
 /*** Hero Header ***/
 /*  */
+.hero-header{
+    height: 100vh`;
+}
 .caption-relative{
     position: relative;
 }
@@ -308,7 +311,8 @@
 /* media query ))))))))))))))))))))))) */
 @media (max-width: 991.98px) {
     .hero-header {
-        padding: 6rem 0 9rem 0;
+        height: 100vh;
+        /* padding: 6rem 0 9rem 0; */
     }
 
     .page-header {
