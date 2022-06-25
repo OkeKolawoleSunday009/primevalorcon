@@ -153,10 +153,12 @@
 .learn-more:hover{
     background-color:var(--primary) !important;
 }
-
-.margin-fix{
-    margin-left:none !important;
+.cap-pad{
+    margin-top: -30px !important;
 }
+/* .margin-fix{
+    margin-left:none !important;
+} */
 
 /* media query ))))))))))))))))))))))) */
 @media (max-width: 991.98px) {
@@ -190,9 +192,9 @@
         max-height: 45px;
     }
     
-    .margin-fix{
+    /* .margin-fix{
         margin-left: none !important;
-    }
+    } */
 }
 
 /* media query ))))))))))))))))))))))) */
@@ -268,9 +270,9 @@
         transition: .5s;
         opacity: 1;
     }
-    .margin-fix{
-        margin-left: 270px !important;
-    }
+    /* .margin-fix2{
+        margin-left: 230px !important;
+    } */
 }
 @media (max-width: 768px) {
     .navbar .navbar-brand h1 span{
@@ -291,14 +293,13 @@
 /*** Hero Header ***/
 /*  */
 .hero-header{
-    height: 100vh`;
+    height: 100vh;
 }
 .caption-relative{
     position: relative;
 }
 .captions{
-    position: absolute;
-    z-index: 1000;
+  font-size: 40px !important;
 }
 .tab-bg{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
@@ -323,9 +324,9 @@
         padding: 6rem 0;
     }
 
-    .margin-fix{
+    /* .margin-fix{
         margin-left:none !important;
-    }
+    } */
    
 }
 

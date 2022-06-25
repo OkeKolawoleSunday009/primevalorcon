@@ -14,8 +14,8 @@
         // $(".hero-header").css("background-image", 
         //
        
-        $(".hero-header").css({background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)'});
-        // function changePicture() {
+        function changePicture() {
+            $(".hero-header").css({background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)'});
 
         //     $(".hero-header").css({
         //          background:"linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"
@@ -33,9 +33,9 @@
             // }
     
             // setTimeout("changePicture()", slideTime);
-        // }
+        }
     
-        // window.onload = changePicture;
+        window.onload = changePicture;
     
             //  for read more       
             var defaultHeight = 400; // height when "closed"
