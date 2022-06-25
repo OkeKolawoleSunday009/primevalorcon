@@ -62,7 +62,7 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Service</a>
-                        <div class="nav-item dropdown">
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">work</a>
                             <div class="dropdown-menu m-0">
                                 <a href="feature.html" class="dropdown-item">Business Admin & Management
@@ -73,7 +73,7 @@
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">Other Services</a>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="contact.html" class="btn btn-light rounded-pill text-dark py-2 book-us px-4 ms-lg-5" >Book us</a>
@@ -99,7 +99,7 @@
                             </div>
                           </div> -->
                           <div class="carousel-item active bg-secondary  bg-gradient ">
-                            <img src="img/renew1.jpg" class="d-block w-100 hero-header  bg-secondary bg-gradient" alt="...">
+                            <img src="img/renew1.jpg" class="d-block w-100 bg-secondary bg-gradient hero-header" alt="...">
                             <!-- <div class="carousel-caption d-none d-md-block ">
                               <h5>Second slide label</h5>
                               <p>Some representative placeholder content for the second slide.</p>
@@ -112,7 +112,7 @@
                             </div>
                           </div>
                           <div class="carousel-item  bg-secondary  bg-gradient">
-                            <img src="img/renew2.jfif" class="d-block w-100 hero-header" alt="...">
+                            <img src="img/renew2.jfif" class="d-block w-100 hero-header " alt="...">
                             <!-- <div class="carousel-caption d-none d-md-block ">
                               <h5>Second slide label</h5>
                               <p>Some representative placeholder content for the second slide.</p>
@@ -125,7 +125,7 @@
                             </div>
                           </div>
                           <div class="carousel-item  bg-secondary  bg-gradient">
-                            <img src="img/renew3.jfif" class="d-block w-100 hero-header bg-gradient bg-secondary" alt="...">
+                            <img src="img/renew3.jfif" class="d-block w-100 bg-gradient bg-secondary hero-header" alt="...">
                             <div class="col-lg-8 text-center mx-auto text-lg-start carousel-caption align-top  cap-pad">
                                 <h1 class="default-color mb-4 animated zoomIn captions">HR  <span> AND CONSULTING </span></h1>
                                 <h4 class="text-white  pb-3 animated zoomIn">A management consulting organization with a purpose to help firms leverage individual and organizational .
@@ -152,13 +152,13 @@
 
 
         <!-- About Start -->
-        <div class="container-xxl py-6">
+        <div class="container-xxl py-6 " >
             <div class="container">
-                <div class="row g-5 align-items-center d-flex">
+                <div class="row g-5 align-items-center default-bgcolor d-flex">
                     <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
                         <img class="img-fluid img-responsive img-control" src="img/renew2.jfif">
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6 wow fadeInUp default-bgcolor" data-wow-delay="0.1s">
                         <div class="d-inline-block border rounded-pill default-color px-4 mb-3">About Us</div>
                         <h2 class="mb-4">What We Do</h2>
                         <!-- <p class="mb-4">A management consulting organization with a purpose to help firms leverage individual and organizational capacity to create strategic and long-term results by delivering specialized Business and HR solutions/ services to assist firms in achieving substantial acceleration and growth for enhanced business processes, happy workers, and increased revenue growth</p> -->
@@ -761,7 +761,70 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script>
 
-          </script>
+
+        // var i = 0;
+        // var images = [];
+        // var slideTime =  5000; // 3 seconds
+
+        // images[0] = 'img/banner1.jpg';
+        // images[1] = 'img/banner2.jpg';
+        // images[2] = 'img/team-4.jpg';
+
+         // $(".hero-header").css(
+        //     {background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))'} 
+        //     );
+        // $(".hero-header").css();
+        // $(".hero-header").css("background-image", 
+        //
+       
+        function changePicture() {
+            $(".hero-header").css({background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)'});
+
+        //     $(".hero-header").css({
+        //          background:"linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"
+              
+        //             });
+            
+                    // , url(" + images[i] + ")
+                // $().css({background : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"})
+           
+                // document.body.style.backgroundImage = images[i];
+            // if (i < images.length - 1) {
+            //     i++;
+            // } else {
+            //     i = 0;
+            // }
+    
+            // setTimeout("changePicture()", slideTime);
+        }
+    
+        window.onload = changePicture;
+    
+            //  for read more       
+            var defaultHeight = 400; // height when "closed"
+              var text = $(".text");
+              var textHeight = text[0].scrollHeight; // the real height of the element
+              var button = $(".button");
+              
+              text.css({"max-height": defaultHeight, "overflow": "hidden"});
+              
+              button.on("click", function(){
+                var newHeight = 0;
+                if (text.hasClass("active")) {
+                  newHeight = defaultHeight;
+                  text.removeClass("active");
+                  $(".button").text("Read more!");
+                } else {
+                  newHeight = textHeight;
+                  $(".button").text("Read less!");
+                  text.addClass("active");
+                }
+                text.animate({
+                  "max-height": newHeight
+                }, 500);
+              });
+
+    </script>
       
 
     <!-- Template Javascript -->

@@ -160,6 +160,10 @@ span{
     position: absolute  !important;
     top: 180px;
 }
+.img-control{
+    height: 500px;
+    width: 400px;
+}
 /* .margin-fix{
     margin-left:none !important;
 } */
@@ -298,12 +302,14 @@ span{
 /*  */
 .hero-header{
     height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
 }
 .caption-relative{
     position: relative;
 }
+
 .captions{
-  font-size: 40px !important;
+  font-size: 50px !important;
 }
 .tab-bg{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner2.jpg);
@@ -322,6 +328,8 @@ span{
     .hero-header {
         height: 100vh;
         /* padding: 6rem 0 9rem 0; */
+     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+        
     }
 
     .page-header {

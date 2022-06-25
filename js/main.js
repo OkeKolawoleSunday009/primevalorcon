@@ -1,67 +1,8 @@
 
-        // var i = 0;
-        // var images = [];
-        // var slideTime =  5000; // 3 seconds
-
-        // images[0] = 'img/banner1.jpg';
-        // images[1] = 'img/banner2.jpg';
-        // images[2] = 'img/team-4.jpg';
-
-         // $(".hero-header").css(
-        //     {background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))'} 
-        //     );
-        // $(".hero-header").css();
-        // $(".hero-header").css("background-image", 
-        //
-       
-        function changePicture() {
-            $(".hero-header").css({background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)'});
-
-        //     $(".hero-header").css({
-        //          background:"linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"
-              
-        //             });
-            
-                    // , url(" + images[i] + ")
-                // $().css({background : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))"})
-           
-                // document.body.style.backgroundImage = images[i];
-            // if (i < images.length - 1) {
-            //     i++;
-            // } else {
-            //     i = 0;
-            // }
-    
-            // setTimeout("changePicture()", slideTime);
-        }
-    
-        window.onload = changePicture;
-    
-            //  for read more       
-            var defaultHeight = 400; // height when "closed"
-              var text = $(".text");
-              var textHeight = text[0].scrollHeight; // the real height of the element
-              var button = $(".button");
-              
-              text.css({"max-height": defaultHeight, "overflow": "hidden"});
-              
-              button.on("click", function(){
-                var newHeight = 0;
-                if (text.hasClass("active")) {
-                  newHeight = defaultHeight;
-                  text.removeClass("active");
-                  $(".button").text("Read more!");
-                } else {
-                  newHeight = textHeight;
-                  $(".button").text("Read less!");
-                  text.addClass("active");
-                }
-                text.animate({
-                  "max-height": newHeight
-                }, 500);
-              });
-
 (function ($) {
+
+    // $(".hero-header").css({background:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)'});
+
     "use strict";
 
     // Spinner
