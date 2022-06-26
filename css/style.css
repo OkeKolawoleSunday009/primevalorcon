@@ -326,7 +326,24 @@
 /*  */
 .hero-header{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/renew1.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-header1{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/renew2.jfif) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-header2{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/renew3.jfif) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .caption-relative{
     position: relative;
