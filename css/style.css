@@ -5,7 +5,7 @@
     --dark: #0E2E50;
 
 }
-span{
+.captions span{
     color:white;
 }
 
@@ -164,6 +164,23 @@ span{
     height: 500px;
     width: 400px;
 }
+.cap-bottom{
+    margin-bottom: 30px !important;
+}
+.cap-under{
+    width: 50px;
+    height: 10px;
+    border-bottom: 2px solid white;
+}
+.cap-undercol{
+    width: 50px;
+    height: 10px;
+    border-bottom: 2px solid rgb(249, 63, 1);
+}
+
+.textjustify{
+    text-align: justify;
+}
 /* .margin-fix{
     margin-left:none !important;
 } */
@@ -291,11 +308,18 @@ span{
     .navbar .navbar-brand h1 {
         font-size: 13px !important;
     }
-    .img-control{
+    /* .img-control{
         height: 300px;
         width: 400px;
+    } */
+    .captions{
+        font-size: 30px !important;
+    }
+    .cap-pad h4{
+        font-size: 15px;
     }
 }
+
 
 
 /*** Hero Header ***/
