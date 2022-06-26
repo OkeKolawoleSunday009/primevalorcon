@@ -336,6 +336,14 @@
     }
 
 }
+@media (max-width: 1280px) {
+    .cap-pad{
+        position: absolute  !important;
+        top: 50px;
+    }
+
+}
+
 
 
 
