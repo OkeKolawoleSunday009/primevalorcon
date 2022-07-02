@@ -80,8 +80,15 @@
     font-weight: normal;
     border-radius: 50px;
 }
-
-
+.style__button{
+    border: 2px solid orangered !important;
+}
+.style__button:hover {
+        color:orangered;
+        background-color: #DDDDDD;
+        border: none !important;
+        cursor: pointer     ;
+}
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
     position: relative;

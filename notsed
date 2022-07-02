@@ -10,7 +10,109 @@
  background-repeat: no-repeat;
  background-size: cover;
 }
+       
+Testimonial Start
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <!-- <div class="d-inline-block border rounded-pill default-color px-4 mb-3">Testimonial</div> -->
+                    <h2 class="mb-5">What Our Clients Say!</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x default-color mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x default-color mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x default-color mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x default-color mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
 
+
+
+<!-- Client Start -->
+        <div class="container-xxl default-bgcolor my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="container">
+              <div class="owl-carousel client-carousel">
+                  <a href="#"><img class="img-fluid" src="img/logo-1.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-2.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-3.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-4.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-5.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-6.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-7.png" alt=""></a>
+                  <a href="#"><img class="img-fluid" src="img/logo-8.png" alt=""></a>
+              </div>
+          </div>
+      </div>
+      <!-- Client End -->
+
+
+
+
+
+        <!-- Newsletter Start -->
+        <div class="container-xxl default-bgcolor  my-6  wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container px-lg-2 d-fex">
+                <div class="row align-items-center" style="height: 250px;">
+                    <div class="col-lg-6 col-md-6">
+                        <h3 class="text-white">Ready to get started</h3>
+                        <small class="text-white">signup to our news letter.</small>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane default-color fs-4"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mb-n5 d-none d-md-block">
+                        <img class="img-fluid mt-5" style="max-height: 250px;" src="img/newsletter.png">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow zoomIn hero-header1" data-wow-delay="0.1s">
+                    <!-- <img class="img-fluid img-control" src="img/renew2.jfif"> -->
+                </div>
+            </div>
+        </div>
 
 
 <div class="container-xxl hero-header " >
