@@ -314,7 +314,7 @@
         width: 400px;
     } */
     .hero-header,.hero-header1,.hero-header2{
-        height: 100vh;
+        height: auto;
     }
     .captions h1{
         font-size: 30px !important;
