@@ -89,6 +89,18 @@
         border: none !important;
         cursor: pointer     ;
 }
+
+/* fix our core value margin bottom */
+.div_height{
+    /* gap: 20px; */
+    height: 120px !important;
+    /* padding-bottom: 20px !important; */
+}
+
+
+.light-height{
+    line-height: 2;
+}
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
     position: relative;

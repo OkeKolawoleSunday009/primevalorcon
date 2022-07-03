@@ -69,6 +69,22 @@ Testimonial Start
         <!-- Testimonial End -->
 
 
+         <div class="container height">
+<!-- 
+        <div class="switch__buttons max-auto">
+            <button class="btn style__button">
+                <i class="fa fa-user-tie default-color  "></i>
+                Our values</button>
+            <button class="btn  style__button">
+                <i class="fa fa-user-tie default-color"></i>
+                Our Mission</button>
+            <button class="btn style__button">
+                <i class="fa fa-user-tie default-color"></i>
+                Our Core values</button> -->
+
+        </div>
+
+
 
 <!-- Client Start -->
         <div class="container-xxl default-bgcolor my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
