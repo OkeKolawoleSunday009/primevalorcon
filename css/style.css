@@ -96,6 +96,12 @@
     height: 120px !important;
     /* padding-bottom: 20px !important; */
 }
+/* fix register section
+ */
+
+ .text-fix{
+    padding:  170px 10px;
+ }
 
 
 .light-height{
