@@ -337,6 +337,9 @@
     .fix-768media-screen{
         margin-bottom: 55px !important;
     }
+    .fix-768media-screen0{
+        margin-bottom: 25px !important;
+    }
     /* .img-control{
         height: 300px;
         width: 400px;
